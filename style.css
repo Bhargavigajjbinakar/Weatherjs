@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+#maincontainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size:100vw 100vh;
+    background-color: silver;
+}
+#cardcontainer{
+    height:600px;
+    width: 400px;
+    border: 5px solid black; 
+    border-radius: 5%;
+    color:yellow;
+    margin: 50px;
+    font-weight: 1500;
+    /* background: linear-gradient(skyblue,white,black); */
+  }
+
+ #firstcontainer{
+    /* border: 2px solid green;  */
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+ }
+#location{
+   height: 30px;
+   border-radius: 10px;
+}
+input{
+   height: 30px;
+   border-radius: 10px;
+}
+ input[type='submit']{
+   background-color: rgb(46, 91, 109);
+   color: white;
+   
+
+ }
+ #secondcontainer{
+    /* border: 2px solid green; */
+    height: 60%;
+    flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+   
+ }
+ 
+
+ img{
+   border: 2px solid black;
+   border-radius: 50%;
+   width: 200px;
+    height: 150px;
+
+ }
+ #thirdcontainer{
+    /* border: 2px solid green;  */
+    height: 20%;
+   display: flex;
+   gap: 20px;
+   
+  
+ }
+
+  #temperature,#humidity{
+    flex-basis: 50%;
+    border: 2px solid rgb(175, 160, 160);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 20px;
+   color: rgb(104, 207, 251);
+   border-radius: 30%;
+   background-color:rgb(54, 108, 130);
+
+ }
+
+ 
+
+  
